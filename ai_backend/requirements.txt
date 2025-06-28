@@ -1,0 +1,11 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+python-dotenv==1.0.1
+google-generativeai==0.6.0
+langchain==0.2.11             # Updated to a more recent 0.2.x version
+langchain-core                # Removed strict version pin
+langchain-chroma              # Removed strict version pin
+langchain-community           # Removed strict version pin
+pydantic==2.8.2
+chromadb==0.5.3
+sentence-transformers==2.7.0

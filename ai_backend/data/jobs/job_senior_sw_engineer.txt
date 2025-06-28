@@ -1,0 +1,27 @@
+Job Title: Senior Software Engineer
+Company: Global Tech Solutions
+Location: Remote
+
+About Us:
+Global Tech Solutions is a fast-growing company specializing in AI-driven SaaS products. We are looking for passionate and experienced software engineers to join our dynamic team.
+
+Job Responsibilities:
+- Design, develop, and deploy scalable and high-performance backend services.
+- Lead technical design and code reviews, ensuring high-quality software.
+- Collaborate with product managers, QA, and other engineering teams.
+- Mentor junior engineers and contribute to a culture of continuous learning.
+- Troubleshoot and resolve complex production issues.
+
+Required Qualifications:
+- Bachelor's or Master's degree in Computer Science or a related field.
+- 5+ years of professional experience in software development.
+- Strong proficiency in Python or Java, with experience in web frameworks (e.g., Django, Spring Boot).
+- Experience with relational databases (e.g., PostgreSQL, MySQL) and NoSQL databases.
+- Solid understanding of RESTful API design and microservices architecture.
+- Experience with cloud platforms (AWS, Azure, GCP).
+- Excellent problem-solving, communication, and interpersonal skills.
+
+Preferred Qualifications:
+- Experience with Docker and Kubernetes.
+- Familiarity with CI/CD pipelines.
+- Knowledge of front-end technologies (React, Angular).
