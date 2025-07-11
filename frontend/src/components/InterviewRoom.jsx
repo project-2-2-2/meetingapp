@@ -1,3 +1,4 @@
+
 // frontend/src/components/InterviewRoom.js
 
 import React, { useRef, useState, useEffect, useCallback } from 'react';
@@ -350,4 +351,3 @@ function InterviewRoom({
 }
 
 export default InterviewRoom;
-

@@ -102,6 +102,8 @@ io.on('connection', (socket) => {
 
     // Handle 'signal' event (WebRTC signaling data: offers, answers, ICE candidates)
     socket.on('signal', (data) => {
+                console.log(`Signal from ${socket.id} to ${data.to}:`, data.signal);
+
         io.to(data.to).emit('signal', { from: socket.id, signal: data.signal });
     });
 

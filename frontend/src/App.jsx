@@ -13,6 +13,7 @@ function App() {
     const [roomId, setRoomId] = useState('');
     const [userRole, setUserRole] = useState(''); // 'interviewer' or 'interviewee'
     const [inInterview, setInInterview] = useState(false); // Controls view: Setup vs. Interview
+const [currentPage, setCurrentPage] = useState('main'); // 'main' or 'abc'
 
     const [interviewTranscript, setInterviewTranscript] = useState(""); // Accumulates transcript from InterviewRoom
     const [llmReport, setLlmReport] = useState(null);
@@ -75,7 +76,15 @@ function App() {
             alert("Please fill in Room ID, select a role, candidate, and job.");
         }
     };
-
+const abc = () => {
+   <abc
+                            selectedCandidate={selectedCandidate}
+                            selectedJob={selectedJob}
+                            roomId={roomId}
+                            userRole={userRole}
+                            onTranscriptUpdate={handleTranscriptUpdate}
+                            onInterviewAnalysisTrigger={handleInterviewAnalysisTrigger}
+                        />    }
     const handleLeaveInterview = () => {
         setInInterview(false);
         setInterviewTranscript(""); // Reset transcript
@@ -87,9 +96,9 @@ function App() {
 
     return (
         <div className="App">
+            
             <h1>AI Interview Detector</h1>
-
-            {!inInterview ? (
+              {!inInterview ? (
                 <div className="setup-section">
                     <h2>Setup Interview Session</h2>
 
